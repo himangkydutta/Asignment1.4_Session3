@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Element</title>
+		<style>
+		 <!--Using image element behind text -->
+		 <!--If outer Div is relative then inner Div must be absolute-->
+			.image
+			{
+				position:relative;
+				width: 200px;
+				height: 100px;
+			}
+			.text
+			{
+				position:absolute;
+				right: 577px;
+				top: 10px;
+			}
+			
+			p{
+				padding:5px;
+				margin:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="image">
+			<img src="Acadgild.png"/>
+			<div class="text">
+				<h1>.ing.This is a Heading</h1>
+			</div>
+			<p>This is a paragraph.This is a paragraph</p>
+			<p>This is another paragraph.This is another paragraph</p>
+		</div>
+	</body>
+</html>
